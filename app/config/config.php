@@ -10,11 +10,11 @@
     /**
      * SITE Name
      */
-    define("SITE_NAME", "Education");
+    define("SITE_NAME", "SiteName");
     /**
      * Db Params
      */
     define("DB_HOST", "localhost");
-    define("DB_NAMME", "eduhub;");
-    define("DB_USER", "Dhanush");
-    define("DB_PASSWORD", "Dhanush@1997");
+    define("DB_NAMME", "");
+    define("DB_USER", "");
+    define("DB_PASSWORD", "");
