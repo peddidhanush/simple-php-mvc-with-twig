@@ -1,0 +1,11 @@
+  {% extends 'base.html.twig' %}
+   {% block inc %}
+   {% include "inc/hi.html.twig" %}
+   {% endblock %}
+   {% block body %}
+   <ul>
+        {% for post in posts %}
+        <li>{{post.post_title}} - {{post.post_content}}</li>
+        {% endfor %}
+    </ul>
+    {% endblock %}
